@@ -1,15 +1,7 @@
-import { Button } from "./components/Button";
+import { Home } from "./Pages/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <Button text="Botao 1" />
-      <Button />
-      <Button />
-      <Button />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
